@@ -1,0 +1,462 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4F4F4;
+    color: #333333;
+    overflow-x: hidden;
+
+}
+
+body span{
+    color: #3C8D99;
+}
+
+body i {
+    color: white;
+}
+
+
+
+.header {
+    background-color: #5F9EA0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header nav{
+    padding-top: 20px;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+
+}
+
+.header nav a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: #5F9EA0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.logs p {
+    margin-top: 10px;
+}
+
+.logs a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logs a:hover {
+    text-decoration: none;
+    background-color: white;
+    color: #5F9EA0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+body p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 40px;
+    color: #333333;
+    
+}
+
+
+.content {
+    background-image: linear-gradient(rgba(119, 121, 121, 0.7), rgba(0, 0, 0, .7)),url(../images\ /meeting.avif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 60px;
+    min-height: 40vh;
+    background-size: cover;
+    color: white;
+    
+
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.search-container input {
+    width: 60%;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #5F9EA0;
+    text-size-adjust: 10px;
+}
+
+.search-container :hover {
+    text-decoration: none;
+}
+
+.search-container button {
+    padding: 10px;
+    background-color: #5F9EA0;
+    color: white;
+    border-radius: 10px;
+    width: 5%;
+    border: 1px solid;
+}
+
+#search-bar:focus {
+    outline: none; 
+    border-color: #4682B4; 
+    box-shadow: 0 0 10px rgba(70, 130, 180, 0.5); 
+    background-color: #f0f8ff; 
+}
+
+
+#search-bar:hover {
+    border-color: #3C8D99; 
+}
+
+
+#search-bar::placeholder {
+    color: #A9A9A9; 
+    font-style: italic;
+}
+
+.job-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-card h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.job-card p {
+    margin: 5px 0;
+}
+
+#job-list {
+    width: 90%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #5F9EA0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    height: 500px;
+    overflow-y: auto;
+}
+
+
+
+.job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+}
+
+.apply-btn {
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: #5F9EA0;
+    color: white;
+    padding: 15px;
+}
+
+
+footer {
+    background-color: #5F9EA0;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+footer i {
+    color: white;
+}
+
+footer nav {
+    margin: 10px 0;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
+footer .social-media {
+    margin: 10px 0;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+footer .social-media a:hover {
+    transform: scale(1.2);
+    color: #FFDD00;
+   
+}
+
+/*contact*/
+
+.contact-second {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 35px;
+}
+
+.contact-second i{
+    color: #5F9EA0;
+}
+
+.contact-second p {
+    text-align: center;
+}
+
+.cf1-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cf2 {
+    padding-top: 100px;
+    padding: 60px;
+
+}
+
+.cf2 input {
+    padding: 10px;
+}
+
+.cf2-inputs {
+    padding: 20px;
+    padding-left: 1px;
+}
+
+.cf2-inputs1 input:first-child {
+    width: 93%;
+
+}
+
+.cf2-inputs1 input {
+    width: 93%;
+
+}
+
+.cf2-inputs1:last-child {
+    padding: 1px;
+    
+}
+
+
+.cf2-inputs1 button{
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: white;
+    background-color: #5F9EA0;
+   
+    }
+
+.content2 {
+    background-image: linear-gradient(rgba(119, 121, 121, 0.7), rgba(0, 0, 0, .7)),url(../images\ /meeting.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 60px;
+    min-height: 40vh;
+    background-size: cover;
+    color: white;
+    
+
+}
+
+
+/* application csss */
+
+#application-list {
+    width: 90%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #5F9EA0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    height: 400px;
+    /* Set the fixed height */
+    overflow-y: auto;
+    /* Allow scrolling if content exceeds the fixed height */
+    font-size: xx-large;
+    font-display: block;
+}
+
+#applied-jobs h1{
+    text-align: center;
+    color: #3C8D99;
+}
+
+
+/* about page */
+
+.about {
+    padding-bottom: 95px;
+    
+}
+
+.about-pics {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-pics1 {
+    position: absolute;
+    right: 890px;
+    top: 200px;
+}
+
+.about-p i {
+    color: #3C8D99;
+}
+
+.about-p span {
+  color: #3C8D99;
+}
+
+.testimonial {
+    text-align: center;
+    padding: 45px;
+
+}
+/* cv section */
+
+#cv-upload {
+    background-color: #f8f8f8;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+#cv-upload h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #5F9EA0;
+}
+
+#cv-upload p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+#cv-upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#cv-upload-form input[type="file"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    width: 80%;
+    max-width: 350px;
+    background-color: #fff;
+}
+
+#cv-upload-form input[type="file"]:hover {
+    border-color: #5F9EA0;
+}
+
+#cv-upload-form button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    background-color: #5F9EA0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 80%;
+    max-width: 350px;
+}
+
+#cv-upload-form button:hover {
+    background-color: #5F9EA0;
+}
+
+#upload-status {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+#upload-status p {
+    font-weight: bold;
+}
+
+#upload-status p.success {
+    color: green;
+}
+
+#upload-status p.error {
+    color: red;
+}
